@@ -1,0 +1,9 @@
+*.zip
+*.swp
+.terraform/
+terraform.tfstate*
+run/
+tmp/
+__pycache__
+*plan
+node_modules
