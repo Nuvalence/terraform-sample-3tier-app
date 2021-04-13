@@ -1,6 +1,6 @@
 ## Sample 3-tier application for GCP provisioning exercise
   
-#### This repository contains code to provision a simple 3-tier sample application to GCP app engine using Terraform as the provisioning engine. The application consists of a node.js client frontend, an express API, and a MySQL database. Once provisioned, the client should display successful connections to the api and database.
+This repository contains code to provision a simple 3-tier sample application to GCP app engine using Terraform as the provisioning engine. The application consists of a node.js client frontend, an express API, and a MySQL database. Once provisioned, the client should display successful connections to the api and database.
    
 ##### Instructions to set up the deployment for your environment:
 1. Edit `stack.tf`. There are 3 value placeholders beginning with `EXAMPLE`. Replace the 'EXAMPLE' values with ones appropriate for your environment. Also in `stack.tf`, set your desired region in the `provider` stanza (we've left a default of `us-east1`)
